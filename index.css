@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+header{
+    background-color: black;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.car-logo-container {
+    justify-content: flex-start;
+
+}
+
+.text-logo-container {
+    justify-content: center;
+}
+
+.car-logo-container, .text-logo-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.car-logo {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+    
+}
+
+.text-logo {
+    max-width: 100%;
+    height: auto;
+    width: 450px;
+    
+}
+
+.nav-bar {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  .nav-bar a:hover {
+    color: #e64135;
+  }
+
+  
