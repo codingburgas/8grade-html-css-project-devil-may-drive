@@ -2,7 +2,7 @@
     animation: zoomIn 1s ease-in-out;
   }
   
-  @keyframes zoomIn {
+@keyframes zoomIn {
     from {
       transform: scale(0.5);
       opacity: 0;
@@ -11,5 +11,5 @@
       transform: scale(1);
       opacity: 1;
     }
-  }
+}
 

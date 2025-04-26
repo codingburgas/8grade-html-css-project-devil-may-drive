@@ -1,0 +1,78 @@
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 2rem;
+    width: 100%;
+  }
+  
+  .section {
+    background-color: #000000;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 11px;
+    box-shadow: 0 0 15px rgba(230, 65, 53, 0.3);
+    
+  }
+  
+  .section h2 {   /* Log in h2 */
+    text-align: center;
+    color: #b82e22;
+    margin-bottom: 1.5rem;
+    font-family: 'Georgia', serif;
+  }
+  
+
+  .section div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section input {       /* email, password */
+    padding: 0.8rem;
+    margin-bottom: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .section input::placeholder { /* Pseudo element */
+    color: #aaa;
+  }
+  
+ 
+  .button{
+    background-color: white;
+    color: black;
+    padding: 0.8rem;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+
+    
+  }
+  
+  .button:hover { /*Pseudo class*/
+    background-color: #b82e22;
+    color: white;
+  }
+  
+  .switch {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #e64135;
+  }
+  
+  .switch a {
+    color: #e64135;
+    font-weight: bold;
+  }
+  
+  .switch a:hover {
+    text-decoration: underline;
+  }
+  
