@@ -71,5 +71,14 @@ header{
   .nav-bar a:hover {
     color: #e64135;
   }
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: red;
+    text-align: center;
+    padding: 1rem;
+  }
 
   
