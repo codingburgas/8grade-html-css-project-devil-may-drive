@@ -9,6 +9,15 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    background-image: url('../media/ChatGPT\ Image\ Apr\ 29\,\ 2025\,\ 08_07_28\ PM.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
 header{
@@ -81,4 +90,9 @@ header{
     padding: 1rem;
   }
 
-  
+
+  main img{
+    max-width: 100%;
+    height: auto;
+    width: 140rem;
+  }
