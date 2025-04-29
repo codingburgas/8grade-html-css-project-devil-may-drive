@@ -84,7 +84,7 @@ header{
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: black;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); 
     color: red;
     text-align: center;
     padding: 1rem;
@@ -95,4 +95,15 @@ header{
     max-width: 100%;
     height: auto;
     width: 140rem;
+  }
+  .terms-and-policy{
+    color: #ccc;
+    margin: 0 10px;
+  }
+  footer a{
+    color: #ccc;
+    margin: 0 5px;
+  }
+  footer div{
+    margin-top: 10px;
   }
