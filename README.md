@@ -2,9 +2,7 @@
 <html>
 <head>
 </head>
-<body>
-# Knowledge Check 
-
+<body> 
 ## Team Members
 <ul>
   <li>Scrum Trainer - Martin Jelev (8V)</li>
