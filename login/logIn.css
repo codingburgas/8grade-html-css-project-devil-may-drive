@@ -76,3 +76,14 @@
     text-decoration: underline;
   }
   
+  .section input {
+    border: 2px solid #555;
+  }
+  
+  .section input:focus:invalid {
+    border-color: #e64135;
+  }
+  .section input:valid{
+    border-color: #838383;
+  }
+  
