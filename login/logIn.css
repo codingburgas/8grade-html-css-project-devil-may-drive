@@ -15,7 +15,7 @@
     
   }
   
-  .section h2 {   /* Log in h2 */
+  .section h2 {   /* section h2 */
     text-align: center;
     color: #b82e22;
     margin-bottom: 1.5rem;
@@ -28,7 +28,7 @@
     flex-direction: column;
   }
   
-  .section input {       /* email, password */
+  .section input {         /* For email, password, username... */
     padding: 0.8rem;
     margin-bottom: 1.2rem;
     border: none;
@@ -36,9 +36,10 @@
     font-size: 1rem;
     background-color: #222;
     color: #fff;
+    border: 2px solid #555;
   }
   
-  .section input::placeholder { /* Pseudo element */
+  .section input::placeholder {
     color: #aaa;
   }
   
@@ -55,8 +56,8 @@
     
   }
   
-  .button:hover { /*Pseudo class*/
-    background-color: #b82e22;
+  .button:hover {
+    background-color: #df3f33;
     color: white;
   }
   
@@ -64,11 +65,11 @@
     margin-top: 1rem;
     text-align: center;
     font-size: 0.9rem;
-    color: #e64135;
+    color: #df3f33;
   }
   
-  .switch a {
-    color: #e64135;
+  .switch a {             /* switch class - switch button(Log in, Register) */
+    color: #df3f33;
     font-weight: bold;
   }
   
@@ -76,14 +77,10 @@
     text-decoration: underline;
   }
   
-  .section input {
-    border: 2px solid #555;
-  }
-  
-  .section input:focus:invalid {
-    border-color: #e64135;
+  .section input:focus:invalid {      
+    border-color: #df3f33;
   }
   .section input:valid{
-    border-color: #838383;
+    border-color: #b3b3b3;
   }
   
