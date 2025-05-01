@@ -1,108 +1,167 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    min-height: 100vh;
-    background-image: url('../media/ChatGPT\ Image\ Apr\ 29\,\ 2025\,\ 08_07_28\ PM.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: black;
-  }
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100vh;
+  background-image: url('../media/ChatGPT Image Apr 29, 2025, 08_07_28 PM.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+}
 
-header{
-    background-color: black;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  background-color: black;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .car-logo-container {
-    justify-content: flex-start;
-
+  justify-content: flex-start;
 }
 
 .text-logo-container {
-    justify-content: center;
+  justify-content: center;
 }
 
 .car-logo-container, .text-logo-container {
-    flex: 1;
-    display: flex;
-    align-items: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
 }
 
 .car-logo {
-    max-width: 100%;
-    height: auto;
-    width: 150px;
-    
+  max-width: 100%;
+  height: auto;
+  width: 150px;
 }
 
 .text-logo {
-    max-width: 100%;
-    height: auto;
-    width: 468px;
-    
+  max-width: 100%;
+  height: auto;
+  width: 468px;
 }
 
 .nav-bar {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
-  
 .nav-bar ul {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-  }
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
 
-  .nav-bar a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-  }
-  .nav-bar a:hover {
-    color: #e64135;
-  }
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0));
-    color: red;
-    text-align: center;
-    padding: 4rem 2rem 1rem 2rem;
-    
-  }
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
 
+.nav-bar a:hover {
+  color: #e64135;
+}
 
-  main img{
-    max-width: 100%;
-    height: auto;
-    width: 140rem;
-  }
-  .terms-and-policy{
-    color: #ccc;
-    margin: 0 10px;
-  }
-  footer a{
-    color: #ccc;
-    margin: 0 5px;
-  }
-  footer div{
-    margin-top: 10px;
-  }
+footer {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0));
+  color: red;
+  text-align: center;
+  padding: 4rem 2rem 1rem 2rem;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+.terms-and-policy {
+  color: #ccc;
+  margin: 0 10px;
+}
+
+footer a {
+  color: #ccc;
+  margin: 0 5px;
+}
+
+footer div {
+  margin-top: 10px;
+}
+
+main section {
+  padding: 5rem 0.5rem;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 8px;
+}
+
+main h2 {
+  color: #e64135;
+  margin-bottom: 1rem;
+}
+
+.ad-button, .rent-button {
+  padding: 0.6rem 1.2rem;
+  background-color: #e64135;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.ad-button:hover, .rent-button:hover {
+  background-color: #b82e22;
+}
+
+.car-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.car-card1 {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  border-radius: 6px;
+  width: 250px;
+}
+
+.car-card1 img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.why-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-us li {
+  margin-bottom: 0.8rem;
+}
+
+.reviews blockquote {
+  margin: 1rem 0;
+  font-style: italic;
+}
