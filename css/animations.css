@@ -1,4 +1,4 @@
-.text-logo {
+.text-logo {                                    /*header logo animation */
     animation: zoomIn 1s ease-in-out;
   }
   
