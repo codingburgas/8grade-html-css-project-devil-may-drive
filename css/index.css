@@ -148,8 +148,9 @@ main h2 {
 
 .car-card img {
   width: 100%;
-  border-radius: 4px;
-  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  margin-bottom: 0.7rem;
+  height: 10rem;
 }
 
 .why-us ul {
@@ -164,4 +165,19 @@ main h2 {
 .reviews blockquote {
   margin: 1rem 0;
   font-style: italic;
+}
+
+.price-container{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.old-price{
+  text-decoration: line-through red 2px;
+  
+}
+
+.new-price{
+  font-weight: bold;
 }
