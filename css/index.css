@@ -27,7 +27,19 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-shadow: 0 0 30px black;
+  
+  
+}
+
+.main-section p{
+  margin-bottom: 6rem;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 200; /* For the subline */
+}
+
+.main-section h1{
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600; /* For "Unleash the Beast" */
 }
 
 header {
@@ -68,7 +80,7 @@ header {
 .text-logo {
   max-width: 100%;
   height: auto;
-  width: 468px;
+  width: 410px;
 }
 
 .nav-bar {
@@ -126,9 +138,9 @@ main section {
   text-align: center;
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
-  margin: 2rem auto;
-  width: 90%;
-  max-width: 1000px;
+  margin: 17rem auto;
+  width: 100%;
+  /* max-width: 1000px; */
   border-radius: 8px;
 }
 
@@ -172,6 +184,10 @@ main h2 {
   height: 10rem;
 }
 
+.why-us{
+  margin: 4rem 0rem 4rem 0rem;
+}
+
 .why-us ul {
   list-style: none;
   padding: 0;
@@ -179,6 +195,11 @@ main h2 {
 
 .why-us li {
   margin-bottom: 0.8rem;
+}
+
+.reviews{
+  max-width: 1000px;
+  background-color: #1D1D1D;
 }
 
 .reviews blockquote {
