@@ -10,20 +10,39 @@ body {
   flex-direction: column;
   height: 100%;
   min-height: 100vh;
-  background-image: url('../media/ChatGPT Image Apr 29, 2025, 08_07_28 PM.png');
+  
+  
+  
+  background-color: black;
+}
+
+.main-section{
+  background-image: url('../media/gpt\ img2.PNG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: black;
+  height: 71vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0 30px black;
 }
 
 header {
   background-color: black;
-  padding: 1rem;
+  padding: 1rem 1rem 0.5rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.filler{
+  padding: 7rem;
+  background-color: none;
 }
 
 .car-logo-container {
