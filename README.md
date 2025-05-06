@@ -3,7 +3,8 @@
 <head>
 </head>
 <body> 
-## Team Members
+Team Members :
+<hr>
 <ul>
   <li>Scrum Trainer - Martin Jelev (8V)</li>
   <li>Back-end Developer - Georgi Nikolov (8A)</li>
@@ -12,8 +13,8 @@
 </ul>
 
 ## About our project
-<p>We are making a car site</p>
-<p>When starting our program you'll have two options: to Learn or Test yourself!</p>
+<p>We are making the greatest car rental site.</p>
+<p>When opening our site you will first see the main page.</p>
 
 ## Technologies 
 <ul>
