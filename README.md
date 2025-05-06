@@ -13,7 +13,7 @@ Team Members :
 
 ## About our project
 <p>We are making the greatest car rental site.</p>
-<p>When starting our program you'll have two options: to Learn or Test yourself!</p>
+<p>When opening our site you will first see the main page.</p>
 
 ## Technologies 
 <ul>
