@@ -4,6 +4,7 @@
 </head>
 <body> 
 Team Members :
+<hr>
 <ul>
   <li>Scrum Trainer - Martin Jelev (8V)</li>
   <li>Back-end Developer - Georgi Nikolov (8A)</li>
