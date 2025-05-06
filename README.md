@@ -3,7 +3,7 @@
 <head>
 </head>
 <body> 
-## Team Members
+Team Members :
 <ul>
   <li>Scrum Trainer - Martin Jelev (8V)</li>
   <li>Back-end Developer - Georgi Nikolov (8A)</li>
