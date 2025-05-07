@@ -210,19 +210,73 @@ main h2 {
   height: 10rem;
 }
 
-.why-us{
-  margin: 4rem 0rem 4rem 0rem;
+.features-section {
+  background-color: #0a0a0a;
+  padding: 80px 20px;
+  text-align: center;
+  color: #f5f5f5;
 }
 
-.why-us ul {
-  list-style: none;
-  padding: 0;
+.features-section h2 {
+  font-size: 32px;
+  color: #e63946;
+  margin-bottom: 16px;
 }
 
-.why-us li {
-  margin-bottom: 0.8rem;
+.features-sub {
+  font-size: 16px;
+  color: #ccc;
+  max-width: 720px;
+  margin: 0 auto 60px;
 }
 
+.features-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.feature-card {
+  background-color: #1a1a1a;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  flex: 1 1 260px;
+  
+}
+
+
+
+.icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(230, 57, 70, 0.1);
+  border-radius: 50%;
+}
+
+.icon svg {
+  width: 28px;
+  height: 28px;
+  fill: #e63946;
+}
+
+.feature-card h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #bbb;
+  line-height: 1.6;
+}
 .reviews{
   max-width: 1000px;
   background-color: #1D1D1D;
