@@ -1,0 +1,112 @@
+.fleet-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 0;
+  }
+  
+  .car-card {
+    background-color: #1a1a1a;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+    width: 420px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .car-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px #92323a80;
+  }
+  
+  .car-card img {
+    width: 90%;
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    border-radius: 12px;
+  }
+  
+  .car-card h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .car-card p {
+    font-size: 15px;
+    color: #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .car-details {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #ddd;
+  }
+  
+  .bookNow-button {
+    background-color: #e63946;
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+  }
+  
+  .bookNow-button:hover {
+    background-color: #c30010;
+  }
+ 
+  
+
+  .fleet-section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #000;
+    color: white;
+  }
+  
+  .fleet-section h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #e63946;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  
+  
+  .category {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 50px;
+  }
+  
+  .category button {
+    padding: 10px 20px;
+    border: 2px solid #e63946;
+    background: transparent;
+    color: #e63946;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .category button:hover,
+  .category .active {
+    background-color: #e63946;
+    color: white;
+  }
