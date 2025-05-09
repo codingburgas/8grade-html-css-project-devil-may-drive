@@ -1,15 +1,70 @@
-.about-container h1 {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: red;
-  }
+.night-content{
+  background-image: url('../media/cityimg5.PNG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   
-  .about-container p {
-    text-align: center;
-    font-size: 18px;
-    color: red;
-    line-height: 1.6;
-    margin-bottom: 30px;
-  }
+  height: 71vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
   
+}
+
+.about-content{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  
+  margin: 2rem 0 0 0;
+  padding: 7rem 0 8rem 0;
+}
+
+.night-content h1{
+  color: rgb(255, 255, 255);
+  z-index: 3;
+  opacity: 0%;
+  font-size: 52px;
+  margin: 12rem 0 6rem 17rem;
+  
+}
+
+.additional-content {
+  background-color: rgba(0, 0, 0, 0.8); /* Adjusted background opacity */
+  padding: 3rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.additional-content h3 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.additional-content p {
+  color: #ccc;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 1.5rem auto;
+}
+
+
+
+footer {
+  margin: 21rem 2rem 1rem 2rem;
+}
+
+main section {
+  padding: 3rem 0.5rem;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0rem auto;
+  width: 100%;
+  /* max-width: 1000px; */
+  border-radius: 8px;
+}
