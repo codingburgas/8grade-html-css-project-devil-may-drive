@@ -159,6 +159,10 @@ main section {
   border-radius: 8px;
 }
 
+.home-p{
+  margin-bottom: 3rem;
+}
+
 main h2 {
   color: #e64135;
   margin-bottom: 1rem;
