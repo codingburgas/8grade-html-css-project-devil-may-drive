@@ -107,3 +107,17 @@
     border-radius: 5px;
     padding: 0.8rem 7vw;
   }
+
+  .pass-button{
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 0.8rem 6vw;
+  }
+  .pass-button:hover {
+    background-color: #df3f33;
+    color: white;
+  }
