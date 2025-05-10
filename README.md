@@ -29,7 +29,7 @@
   <div class="section">
     <h1>Devil-May-Drive</h1>
     <p>A modern, stylish car rental website designed for speed, luxury, and user-friendliness.</p>
-    <img  src="../DMDrive/media/car image.PNG" class="logo" alt="PowerPoint"  />
+    <img  src="logo.PNG" class="logo" alt="PowerPoint"  />
     
   </div>
 
