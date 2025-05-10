@@ -1,72 +1,76 @@
-.night-content{
-    background-image: url('../media/cityimg5.PNG');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-    height: 71vh;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    margin-top: 10rem;
-    
-  }
-  
-  .about-content{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    
-    margin: 2rem 0 0 0;
-    padding: 7rem 0 8rem 0;
-  }
-  
-  .night-content h1{
-    color: rgb(255, 255, 255);
-    z-index: 3;
-    opacity: 0%;
-    font-size: 52px;
-    margin: 12rem 0 6rem 17rem;
-    
-  }
-  
-  .additional-content {
-    background-color: rgba(0, 0, 0, 0.8); /* Adjusted background opacity */
-    padding: 3rem;
-    margin-top: 2rem;
-    text-align: center;
-  }
-  
-  .additional-content h3 {
-    color: white;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .additional-content p {
-    color: #ccc;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 0 auto 1.5rem auto;
-  }
-  
-  .night-content h2{
-    opacity: 0%;
-  }
-  
-  footer {
-    margin: 21rem 2rem 1rem 2rem;
-  }
-  
-  main section {
-    padding: 3rem 0.5rem;
-    text-align: center;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.6);
-    margin: 0rem auto;
-    width: 100%;
-    /* max-width: 1000px; */
-    border-radius: 8px;
-  }
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: #111;
+  border-radius: 15px;
+  max-width: 1200px;
+  margin: 23vh auto;
+}
+
+.contact-form, .map-container {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.contact-form h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: white;;
+}
+
+.contact-form p {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  background: #333;
+  color: white;
+}
+
+.contact-form .row {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-form .row input {
+  flex: 1;
+}
+
+.contact-form {
+  margin: 15px 0;
+  background-color: #111111;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.contact-form button {
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+  border: none;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.map-container {
+  height: 400px;
+}
+
+.map-container iframe{
+    width: 34rem;
+    height: 22rem;
+    border-radius: 18px;
+}
