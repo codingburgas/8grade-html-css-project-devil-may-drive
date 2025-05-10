@@ -1,0 +1,32 @@
+.success-div {
+    text-align: center;
+    background-color: rgb(155 205 178 / 20%);
+    padding: 2rem 8rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+    /* border: 2px solid #38a169; */
+    margin: 21rem 36rem 19rem 36rem;
+}
+  
+  .green-checkmark {
+    font-size: 64px;
+    color: #38a169;
+    margin-bottom: 20px;
+  }
+  
+  .success-h1 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 4vh;
+  }
+
+.ad-button{
+    background: transparent;
+    border: 2px solid #e63946;
+    color: #e63946;
+    padding: 12px 24px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
