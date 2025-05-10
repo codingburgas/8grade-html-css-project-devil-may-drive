@@ -1,19 +1,27 @@
 .main {
     display: flex;
     justify-content: center;
-    padding: 4rem 2rem;
+    padding: 0rem 2rem;
     width: 100%;
     flex: 1;
     
   }
   
+.mainn{
+  display: flex;
+    justify-content: center;
+    padding: 0rem 2rem;
+    width: 100%;
+    flex: 1;
+}
+
   body{
-    background-image: url('../media/ChatGPT\ Image\ Apr\ 29\,\ 2025\,\ 08_07_28\ PM.png');
+    background-image: url('../media/redferraribackground.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
-
+ 
   .section {
     background-color: #000000;
     padding: 2rem;
