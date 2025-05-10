@@ -2,26 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>README</title>
-    <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #0e0e0e;
-      color: #f1f1f1;
-      padding: 2rem;
-      line-height: 1.6;
-    }
-    img.icon {
-      vertical-align: middle;
-      margin-right: 10px;
-      width: 22px;
-    }
-    img.logo {
-      vertical-align: middle;
-      margin-right: 50px;
-      width: auto;
-    }
-  </style>
   
 </head>
 <body>
