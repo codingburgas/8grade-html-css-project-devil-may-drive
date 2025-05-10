@@ -1,3 +1,10 @@
+body{
+  background-image: url('../media/Los\ Angeles.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .fleet-div {
   display: flex;
   flex-wrap: wrap;
@@ -66,7 +73,7 @@
   background-color: #c30010;
 }
 
-/* ✅ Two centered columns layout */
+
 .allcars {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -77,7 +84,6 @@
   padding: 0 2rem;
 }
 
-/* Optional: 1 column on small screens */
 @media (max-width: 600px) {
   .allcars {
     grid-template-columns: 1fr;
@@ -85,10 +91,12 @@
 }
 
 .fleet-section {
-  padding: 0 20px;
+  /* padding: 0 20px; */
   text-align: center;
-  background-color: #000;
+  /* background-color: #000; */
   color: white;
+  margin: 17rem 9rem 0 9rem;
+  width: 85%;
 }
 
 .fleet-section h2 {
@@ -132,7 +140,7 @@
   align-items: center;
   flex-wrap: wrap;
   
-  padding: 0 1rem;
+  padding: 0 5rem;
   margin: 3rem 20rem;
 }
 
@@ -150,6 +158,6 @@
 
 @media (min-width: 768px) {
   .fleet-top {
-    padding: 0 10vw;
+    padding: 0 5vw;
   }
 }
