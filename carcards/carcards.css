@@ -101,23 +101,3 @@ body {
     font-weight: 700;
     margin-bottom: 15px;
 }
-  
-  /* .overview {
-     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 15px;
-    background: #111;
-    padding: 20px;
-    border-radius: 12px;
-    border: 1px solid #222; 
-  }
-  
-  .overview div {
-    font-size: 14px;
-    color: #ccc;
-  }
-  
-  .overview strong {
-    color: #fff;
-  }
-   */

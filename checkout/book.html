@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMD Acc page</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../login/logIn.css">
+    <link rel="stylesheet" href="../carcards/carcards.css">
+    <link rel="stylesheet" href="../checkout/book.css   ">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+</head>
+
+<body>
+  <div class="LogIn-page">
+    <header>
+
+      <div class="car-logo-container">
+        <img class="car-logo" src="../media/car image.PNG" alt="car-logo">
+    </div>
+
+    <div class="text-logo-container">
+        <a href="../home/index.html">
+          <img class="text-logo" src="../media/header img w.PNG" alt="headertext-logo">
+        </a>
+    </div>
+
+    <nav class="nav-bar">
+        <ul>
+          <li><a href="/about/about.html">About us</a></li>
+            <li><a href="/contact/contact.html">Contact</a></li>
+            <li><a href="/services/services.html">Services</a></li>
+            <li><a href="/login/logIn.html">Log in | Register</a></li>
+        </ul>
+    </nav>
+    </header> 
+    <main class="main">
+        <section class="booking-container">
+            <div class="form-card">
+              <h1 class="form-title">Car Rental Reservation</h1>
+              <p class="form-subtitle">Complete the form below to reserve your ride.</p>
+        
+              <form class="booking-form" action="/submit-booking" method="POST">
+                <input type="hidden" name="car_id" value="car123" />
+        
+                <div class="form-group">
+                  <label for="fullname">Full Name</label>
+                  <input type="text"  name="fullname" required />
+                </div>
+        
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email"  name="email" required />
+                </div>
+        
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" name="phone" required />
+                </div>
+        
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="pickup">Pick-Up Date</label>
+                    <input type="date" name="pickup_date" required />
+                  </div>
+        
+                  <div class="form-group">
+                    <label for="return">Return Date</label>
+                    <input type="date"  name="return_date" required />
+                  </div>
+                </div>
+        
+                <div class="form-group">
+                  <label for="location">Pick-Up Location</label>
+                  <input type="text"  name="pickup_location" required />
+                </div>
+        
+                <button class="submit-btn" type="submit">Confirm Reservation</button>
+              </form>
+            </div>
+          </section>
+    </main>
+      <footer>
+        <p>© 2025 Devil-May-Drive Bulgaria</p>
+        
+        <a class="terms-and-policy">
+            Terms of use</a>
+        <a class="terms-and-policy">
+            Privacy Policy</a>
+        <div>
+          <a href="https://facebook.com">Facebook</a>
+          <a href="https://instagram.com">Instagram</a>
+        </div>
+      </footer>
+    </div>
+</body>
+</html>
