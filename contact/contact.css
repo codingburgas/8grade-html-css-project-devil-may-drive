@@ -63,9 +63,10 @@ body{
   font-size: 0.9em;
 }
 
-.contact-form button {
+.contact-form a {
   background: linear-gradient(45deg, #007bff, #00c6ff);
   border: none;
+  text-decoration: none;
   padding: 12px 20px;
   color: white;
   border-radius: 25px;
