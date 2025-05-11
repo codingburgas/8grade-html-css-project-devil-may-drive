@@ -47,7 +47,7 @@
     <h2>🎤 Presenting</h2>
     <hr>
     <p>Our project documentation and presentation are available below:</p>
-    <a href="https://github.com/codingburgas/8grade-html-css-project-devil-may-drive/blob/main/Devil%20May%20Drive%20(2).docx" target="_blank">
+    <a href="https://github.com/codingburgas/8grade-html-css-project-devil-may-drive/blob/main/Devil%20May%20Drive%20v2.docx" target="_blank">
       <img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" class="icon" alt="Word" /> View Documentation
     </a><br>
     <a href="https://github.com/codingburgas/sprint-eschool-knowledge-check/raw/refs/heads/main/Presenting/Knowledge%20Check%20Presentation.pptx" target="_blank">
