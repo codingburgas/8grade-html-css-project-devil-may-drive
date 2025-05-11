@@ -1,9 +1,9 @@
-.booking-container {
+.booking-divv {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 40px 20px;
+    padding: 9rem 0rem
   }
   
   .form-card {
@@ -30,7 +30,7 @@
   }
   
   .booking-form .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
   }
   
   .booking-form label {
@@ -65,17 +65,17 @@
   }
   
   .submit-btn {
-    width: 100%;
-    padding: 14px;
+    
+    padding: 0.8rem 11rem;
     font-size: 16px;
     font-weight: bold;
     color: #ff453a;
     background-color: transparent;
     border: 2px solid #ff453a;
     border-radius: 10px;
-    cursor: pointer;
+    text-decoration: none;
     transition: all 0.3s ease;
-    margin-top: 10px;
+    
   }
   
   .submit-btn:hover {
