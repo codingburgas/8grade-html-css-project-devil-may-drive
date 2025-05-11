@@ -50,7 +50,7 @@
     <a href="https://github.com/codingburgas/sprint-eschool-knowledge-check/raw/refs/heads/main/Presenting/Documentation.docx" target="_blank">
       <img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" class="icon" alt="Word" /> View Documentation
     </a><br>
-    <a href="https://github.com/codingburgas/8grade-html-css-project-devil-may-drive/blob/main/Devil%20May%20Drive%20v2.docx" target="_blank">
+    <a href="https://github.com/codingburgas/8grade-html-css-project-devil-may-drive/blob/main/DEVIL%20MAY%20DRIVE%20Presentation.pptx" target="_blank">
       <img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" class="icon" alt="PPT" /> View Presentation
     </a>
   </div>
