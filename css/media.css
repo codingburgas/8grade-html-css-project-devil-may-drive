@@ -1,3 +1,4 @@
+/* For the site to be responsive */
 @media (max-width: 768px) {
     header {
       flex-direction: column;
