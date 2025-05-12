@@ -79,6 +79,11 @@ body {
   color: white;
 }
 
+.reg-button:hover {
+  background-color: #df3f33;
+  color: white;
+}
+
 .switch {
   margin-top: 1rem;
   text-align: center;
@@ -94,6 +99,8 @@ body {
 
 .switch a:hover {
   text-decoration: underline;
+  background-color: #df3f33;
+  color: white;
 }
 
 .section input:focus:invalid {
