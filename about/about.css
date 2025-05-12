@@ -1,34 +1,34 @@
-.night-content{
+.night-content {
   background-image: url('../media/cityimg5.PNG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
+
   height: 71vh;
   color: white;
   display: flex;
   flex-direction: column;
   margin-top: 10rem;
-  
+
 }
 
-.about-content{
+.about-content {
   background-color: black;
   display: flex;
   justify-content: center;
   width: 99.2vw;
-  
+
   margin: 2rem 0 0 0;
   padding: 7rem 0 8rem 0;
 }
 
-.night-content h1{
+.night-content h1 {
   color: rgb(255, 255, 255);
   z-index: 3;
   opacity: 0%;
   font-size: 52px;
   margin: 12rem 0 6rem 17rem;
-  
+
 }
 
 .additional-content {
@@ -52,8 +52,9 @@
   margin: 0 auto 1.5rem auto;
 }
 
-.invisible{
-  opacity: 0%;;
+.invisible {
+  opacity: 0%;
+  ;
 }
 
 footer {

@@ -1,10 +1,11 @@
-body{
+body {
   background-image: url('../media/Los\ Angeles.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .fleet-div {
   display: flex;
   flex-wrap: wrap;
@@ -139,7 +140,7 @@ body{
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  
+
   padding: 0 5rem;
   margin: 3rem 20rem;
 }

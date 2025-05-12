@@ -1,5 +1,4 @@
-
-body{
+body {
   background-image: url('../media/peakpx.jpg');
   background-size: cover;
   background-position: center;
@@ -16,7 +15,8 @@ body{
   margin: 23vh auto;
 }
 
-.contact-form, .map-container {
+.contact-form,
+.map-container {
   flex: 1;
   min-width: 300px;
   padding: 20px;
@@ -25,7 +25,8 @@ body{
 .contact-form h1 {
   font-size: 2.5em;
   margin-bottom: 10px;
-  color: white;;
+  color: white;
+  ;
 }
 
 .contact-form p {
@@ -78,8 +79,8 @@ body{
   height: 400px;
 }
 
-.map-container iframe{
-    width: 34rem;
-    height: 22rem;
-    border-radius: 18px;
+.map-container iframe {
+  width: 34rem;
+  height: 22rem;
+  border-radius: 18px;
 }

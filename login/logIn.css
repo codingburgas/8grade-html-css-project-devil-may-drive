@@ -1,131 +1,136 @@
 .main {
-    display: flex;
-    justify-content: center;
-    padding: 0rem 2rem;
-    width: 100%;
-    flex: 1;
-    
-  }
-  
-.mainn{
   display: flex;
-    justify-content: center;
-    padding: 0rem 2rem;
-    width: 100%;
-    flex: 1;
+  justify-content: center;
+  padding: 0rem 2rem;
+  width: 100%;
+  flex: 1;
+
 }
 
-  body{
-    background-image: url('../media/redferraribackground.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
- 
-  .section {
-    background-color: #000000;
-    padding: 2rem;
-    width: 100%;
-    max-width: 400px;
-    border-radius: 11px;
-    box-shadow: 0 0 15px rgba(230, 65, 53, 0.3);
-    
-  }
-  
-  .section h2 {   /* section h2 */
-    text-align: center;
-    color: #b82e22;
-    margin-bottom: 1.5rem;
-    font-family: 'Georgia', serif;
-  }
-  
+.mainn {
+  display: flex;
+  justify-content: center;
+  padding: 0rem 2rem;
+  width: 100%;
+  flex: 1;
+}
 
-  .section div {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .section input {         /* For email, password, username... */
-    padding: 0.8rem;
-    margin-bottom: 1.2rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    background-color: #222;
-    color: #fff;
-    border: 2px solid #555;
-  }
-  
-  .section input::placeholder {
-    color: #aaa;
-  }
-  
- 
-  .button{
-    background-color: white;
-    color: black;
-    border: none;
-    font-weight: bold;
-    font-size: 1rem;
-    border-radius: 5px;
-    padding: 0.8rem 7.5vw;
-    
-  }
-  
-  .button:hover {
-    background-color: #df3f33;
-    color: white;
-  }
-  
-  .switch {
-    margin-top: 1rem;
-    text-align: center;
-    font-size: 0.9rem;
-    color: #df3f33;
-  }
-  
-  .switch a {             /* switch class - switch button(Log in, Register) */
-    color: #df3f33;
-    font-weight: bold;
-  }
-  
-  .switch a:hover {
-    text-decoration: underline;
-  }
-  
-  .section input:focus:invalid {      
-    border-color: #df3f33;
-  }
-  .section input:valid{
-    border-color: #b3b3b3;
-  }
-  
-  .LogIn-page{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
+body {
+  background-image: url('../media/redferraribackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  .reg-button{
-    background-color: white;
-    color: black;
-    border: none;
-    font-weight: bold;
-    font-size: 1rem;
-    border-radius: 5px;
-    padding: 0.8rem 7vw;
-  }
+.section {
+  background-color: #000000;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 11px;
+  box-shadow: 0 0 15px rgba(230, 65, 53, 0.3);
 
-  .pass-button{
-    background-color: white;
-    color: black;
-    border: none;
-    font-weight: bold;
-    font-size: 1rem;
-    border-radius: 5px;
-    padding: 0.8rem 6vw;
-  }
-  .pass-button:hover {
-    background-color: #df3f33;
-    color: white;
-  }
+}
+
+.section h2 {
+  /* section h2 */
+  text-align: center;
+  color: #b82e22;
+  margin-bottom: 1.5rem;
+  font-family: 'Georgia', serif;
+}
+
+
+.section div {
+  display: flex;
+  flex-direction: column;
+}
+
+.section input {
+  /* For email, password, username... */
+  padding: 0.8rem;
+  margin-bottom: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #222;
+  color: #fff;
+  border: 2px solid #555;
+}
+
+.section input::placeholder {
+  color: #aaa;
+}
+
+
+.button {
+  background-color: white;
+  color: black;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0.8rem 7.5vw;
+
+}
+
+.button:hover {
+  background-color: #df3f33;
+  color: white;
+}
+
+.switch {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #df3f33;
+}
+
+.switch a {
+  /* switch class - switch button(Log in, Register) */
+  color: #df3f33;
+  font-weight: bold;
+}
+
+.switch a:hover {
+  text-decoration: underline;
+}
+
+.section input:focus:invalid {
+  border-color: #df3f33;
+}
+
+.section input:valid {
+  border-color: #b3b3b3;
+}
+
+.LogIn-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.reg-button {
+  background-color: white;
+  color: black;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0.8rem 7vw;
+}
+
+.pass-button {
+  background-color: white;
+  color: black;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0.8rem 6vw;
+}
+
+.pass-button:hover {
+  background-color: #df3f33;
+  color: white;
+}
