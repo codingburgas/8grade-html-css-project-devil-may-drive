@@ -35,17 +35,10 @@
     <hr>
     <ul>
       <li><img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" class="icon" alt="PowerPoint"  width = "75" height = "75" /> PowerPoint</li>
-<<<<<<< HEAD
       <li><img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" class="icon" alt="Word" width = "75" height = "75"  /> Word</li>
       <li><img src="https://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Other-html-5-icon.png" class="icon" alt="HTML" width = "75" height = "75"  /> HTML</li>
       <li><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/css-icon.png" class="icon" alt="CSS"  width = "75" height = "75" /> CSS</li>
       <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png" class="icon" alt="VS Code"  width = "75" height = "75" /> Visual Studio Code</li>
-=======
-      <li><img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" class="icon" alt="Word" width = "75" height = "75" /> Word</li>
-      <li><img src="https://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Other-html-5-icon.png" class="icon" alt="HTML" width = "75" height = "75" /> HTML</li>
-      <li><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/css-icon.png" class="icon" alt="CSS" width = "75" height = "75" /> CSS</li>
-      <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png" class="icon" alt="VS Code" width = "75" height = "75" /> Visual Studio Code</li>
->>>>>>> f0d7bda92961b37a0be0ea0c7964bf9a48f205ba
       <li><img src="https://cdn0.iconfinder.com/data/icons/logos-microsoft-office-365/128/Microsoft_Office-10-512.png" class="icon" alt="Teams" width = "75" height = "75" /> Microsoft Teams</li>
     </ul>
   </div>
